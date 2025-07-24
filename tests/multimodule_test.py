@@ -1,7 +1,7 @@
 import os, sys
 import unittest
-from idl_parser import parser
-from idl_parser.type import IDLType
+from idl_parser_patched import parser
+from idl_parser_patched.type import IDLType
 
 __nocoveralls = False # This might be redundant but just in case ...
 try:

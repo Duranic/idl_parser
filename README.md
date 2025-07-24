@@ -5,7 +5,7 @@
 
 ## Description 
 
-OMG IDL file parser. This library just parse IDL files, and output intermidiate type objects.
+OMG IDL file parser. This library just parses IDL files, and output intermidiate type objects. This is a fork of https://github.com/sugarsweetrobotics/idl_parser with added IDL 4.2 data types
 
 ## Example
 ```
@@ -13,7 +13,7 @@ OMG IDL file parser. This library just parse IDL files, and output intermidiate 
     
 """
     
-from idl_parser import parser
+from idl_parser_patched import parser
 parser_ = parser.IDLParser()
 idl_str = """
 module my_module {

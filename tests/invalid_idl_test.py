@@ -1,8 +1,8 @@
 import os, sys, traceback
 import unittest
-from idl_parser import parser
-from idl_parser.type import IDLType
-from idl_parser.exception import IDLParserException
+from idl_parser_patched import parser
+from idl_parser_patched.type import IDLType
+from idl_parser_patched.exception import IDLParserException
 
 __nocoveralls = False # This might be redundant but just in case ...
 try:

@@ -4,15 +4,15 @@ import sys
 long_description = open('README.rst', 'r').read()
 
 
-setup(name='idl_parser',
+setup(name='idl_parser_patched',
       version='0.0.17',
       url = 'http://www.sugarsweetrobotics.com/',
       author = 'ysuga',
       author_email = 'ysuga@ysuga.net',
       description = 'Very simple OMG IDL (Interface Definition Language) parser. This parses IDL files and outputs intermediate class objects.',
       long_description = long_description,
-      download_url = 'https://github.com/sugarsweetrobotics/idl_parser',
-      packages = ["idl_parser"],
+      download_url = 'https://github.com/Duranic/idl_parser_patched',
+      packages = ["idl_parser_patched"],
       #py_modules = ["pepper_kinematics"],
       license = 'GPLv3',
       install_requires = [''],

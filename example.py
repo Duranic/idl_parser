@@ -3,7 +3,7 @@
 """
 
 def  test():
-    from idl_parser import parser
+    from idl_parser_patched import parser
     _parser = parser.IDLParser()
     idl_str = '''
 module my_module {
